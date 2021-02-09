@@ -1,0 +1,21 @@
+[user]
+	name = h.ayabe
+	email = h.ayabe_biz@live.jp
+[color]
+	ui = true
+[core]
+	safecrlf = warn
+	excludesfile = /Users/h_ayabe/.gitignore_global
+	editor = /usr/local/bin/vim
+[branch "develop"]
+	rebase = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[credential]
+	helper = osxkeychain
+[init]
+	defaultBranch = main
